@@ -1,0 +1,13 @@
+.cart{
+    background: rgba(255, 153, 0, 0.3);
+    position: sticky;
+    top: 0;
+    padding: 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.cart-header{
+    text-align: center;
+}
