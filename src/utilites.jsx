@@ -22,7 +22,7 @@ const removeFromDb =(id)=>{
 }
 
 
-const getShoppingCart =(id)=>{
+const getShoppingCart =()=>{
 let shoppingCart = {};
 const storeCart = localStorage.getItem('shopping-cart');
 if (storeCart) {
