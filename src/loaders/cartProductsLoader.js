@@ -3,7 +3,7 @@ import { getShoppingCart } from "../utilites";
 const cartProductsLoader =async()=>{
 const loadedProducts = await fetch('products.json');
 const products = await loadedProducts.json();
-console.log(products);
+// console.log(products);
 // if cart is in database you should be have to user async await
 
 const storedCart = getShoppingCart();

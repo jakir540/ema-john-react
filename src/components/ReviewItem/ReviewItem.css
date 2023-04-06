@@ -28,3 +28,16 @@
 .review-details .orange-text{
     color: #FF9900;
 }
+.btn-delete{
+    background-color: #FF9900;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 26px 26px 26px 0;
+    color: #EB5757;
+    background-color: rgb(235, 87, 87,0.3);
+    border: none;
+}

@@ -11,3 +11,16 @@
 .cart-header{
     text-align: center;
 }
+.btn-clear-cart{
+    width: 90%;
+    background-color: #ff3030;
+    color: white;
+    margin: 10px auto ;
+    height: 56px;
+    border-radius: 4px;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
