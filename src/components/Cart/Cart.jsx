@@ -19,11 +19,11 @@ const grandTotal = totalPrice + totalShippingPrice + tax;
   return (
     <div className="cart">
       <h4 className="cart-header">order summery </h4>
-      <p>Selected Item : {cart.length}</p>
+      <p>Selected Item : {quantity}</p>
       <p>Total Price : {totalPrice}</p>
       <p>Total-Shipping Price: {totalShippingPrice}</p>
       <p>Tax: {tax.toFixed(2)}</p>
-      <h6>Grand Total: {grandTotal.toFixed(2)}</h6>
+      <h4>Grand Total: {grandTotal.toFixed(2)}</h4>
     </div>
   );
 };

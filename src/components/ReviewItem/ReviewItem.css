@@ -1,0 +1,30 @@
+.review-item img{
+    width: 91px;
+    border-radius: 8px;
+    padding: 8px;
+   
+    
+}
+.review-item{
+    display: flex;
+    border: 1px solid #95a0a7;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    align-items: center;
+
+}
+.review-details{
+    flex-grow: 1;
+}
+.review-details p{
+    margin: 0px 10px;
+}
+.review-details .product-title{
+    font-size: 21px;
+    color: #1C2B35;
+    letter-spacing: 0.0015em;
+    line-height: 25px;
+} 
+.review-details .orange-text{
+    color: #FF9900;
+}
